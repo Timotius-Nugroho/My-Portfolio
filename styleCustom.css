@@ -1,0 +1,36 @@
+.about {
+  min-height: 280px;
+}
+
+h3 {
+  color: rgb(87, 100, 105);
+}
+
+img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.card-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: slategray;
+}
+
+.card-text:hover {
+  cursor: pointer;
+  color: gainsboro;
+}
+
+.card {
+  min-height: 300px;
+}
+
+.card > img {
+  padding: 10px;
+}
+
+button > a {
+  color: white !important;
+  text-decoration: none !important;
+}
