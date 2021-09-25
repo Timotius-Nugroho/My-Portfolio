@@ -10,6 +10,9 @@ function goToCoffeeExpress() {
 function goToTiketinAja() {
   window.open("https://tiketinaja.netlify.app/", "_blank");
 }
+function goToCatchPoke() {
+  window.open("https://catchpoke-v2.netlify.app/", "_blank");
+}
 
 document
   .getElementById("simple-talk")
@@ -21,3 +24,4 @@ document
 document
   .getElementById("tiketin-aja")
   .addEventListener("click", goToTiketinAja);
+document.getElementById("catch-poke").addEventListener("click", goToCatchPoke);
