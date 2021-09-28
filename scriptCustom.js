@@ -11,7 +11,7 @@ function goToTiketinAja() {
   window.open("https://tiketinaja.netlify.app/", "_blank");
 }
 function goToCatchPoke() {
-  window.open("https://catchpoke-v2.netlify.app/", "_blank");
+  window.open("https://catchpoke-v2.vercel.app/", "_blank");
 }
 
 document
